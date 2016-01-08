@@ -1,0 +1,12 @@
+{
+  "name": "JS-CucumberJS-Protractor",
+  "version": "0.0.0",
+  "description": "Parallel tests Cucumber JS protractor  =============",
+  "main": "",
+  "devDependencies": {
+  	"chai": "^1.9.1",
+    "chai-as-promised": "^4.1.1",
+    "cucumber": "^0.4.2",
+    "protractor": "^1.2.0"
+  }
+}
