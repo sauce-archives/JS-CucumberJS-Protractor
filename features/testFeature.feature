@@ -5,4 +5,4 @@ Feature: Running Cucumber with Protractor
 
   Scenario: Wrapping WebDriver
     Given I go on "https://www.angularjs.org/"
-    Then the title should equal "AngularJS — Superheroic JavaScript MVW Framework"
+    Then the title should equal "AngularJS — Superheroic JavaScript MVW Framework abc"
