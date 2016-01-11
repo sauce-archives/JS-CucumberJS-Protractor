@@ -31,6 +31,8 @@ exports.config = {
     maxInstances: 25
   }],
 
+  resultJsonOutputFile: 'report.json',
+
   cucumberOpts: {
     require: 'features/steps/*_steps.js',
     format: 'pretty'
