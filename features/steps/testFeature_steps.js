@@ -19,15 +19,4 @@ module.exports = function() {
   this.Then(/^the title should equal "([^"]*)"$/, function (arg1, callback) {
     expect(browser.getTitle()).to.eventually.equal(arg1).and.notify(callback);
   });
-
-  this.Then(/^the menu should contain "([^"]*)"$/, function (arg1, callback) {
-    element.all(by.css('.nav li')).filter(function(elem, index) {
-      return elem.getText().then(function(text) {
-        return text === arg1;
-      });
-    }).then(function(filteredElements) {
-        expect(filteredElements).to.have.length(1);
-        callback();
-    });
-  });
 }
