@@ -8,6 +8,8 @@
     "chai-as-promised": "^4.1.1",
     "cucumber": "^0.4.2",
     "protractor": "^1.2.0",
-    "protractor-cucumber-junit": "latest"
+    "protractor-cucumber-junit": "latest",
+    "fs": "latest",
+    "path": "latest"
   }
 }
