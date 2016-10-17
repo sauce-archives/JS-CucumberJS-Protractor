@@ -4,10 +4,11 @@
   "description": "Parallel tests Cucumber JS protractor  =============",
   "main": "",
   "devDependencies": {
-  	"chai": "^1.9.1",
+    "chai": "^1.9.1",
     "chai-as-promised": "^4.1.1",
     "cucumber": "^0.4.2",
     "protractor": "2.5.1",
+    "protractor-cucumber-framework": "^0.6.0",
     "protractor-cucumber-junit": "latest"
   }
 }
